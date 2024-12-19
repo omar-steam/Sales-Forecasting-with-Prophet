@@ -9,16 +9,6 @@ A time series forecasting project using Facebook's Prophet library to predict fu
 - CSV export of forecasts
 - Automated testing suite
 
-## Project Structure
-```
-sales-forecasting/
-├── src/              # Source code
-├── notebooks/        # Jupyter notebooks
-├── data/            # Input data files
-├── output/          # Forecast outputs
-└── tests/           # Test files
-```
-
 ## Installation
 
 1. Clone the repository:
