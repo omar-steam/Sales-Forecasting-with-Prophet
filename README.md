@@ -23,7 +23,7 @@ sales-forecasting/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/sales-forecasting.git
+git clone https://github.com/omar-steam/Sales-Forecasting-with-Prophet
 cd sales-forecasting
 ```
 
@@ -58,6 +58,61 @@ Run the tests using pytest:
 ```bash
 pytest tests/
 ```
+---
 
+# File: requirements.txt
+```
+prophet==1.1.5
+pandas==2.1.0
+matplotlib==3.7.2
+numpy==1.24.3
+pytest==7.4.0
+jupyter==1.0.0
+```
+---
+
+# File: .gitignore
+# Python
+```
+__pycache__/
+*.py[cod]
+*$py.class
+```
+# Virtual Environment
+```
+.env
+.venv
+env/
+venv/
+ENV/
+```
+
+# Distribution / packaging
+```
+dist/
+build/
+*.egg-info/
+```
+# Jupyter Notebook
+```
+.ipynb_checkpoints
+```
+# Data and Output files
+```
+data/*.csv
+output/*.csv
+output/*.png
+```
+# IDE
+```
+.idea/
+.vscode/
+*.swp
+```
+# OS
+```
+.DS_Store
+```
+---
 
 
